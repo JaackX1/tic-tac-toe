@@ -1,4 +1,25 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'MiFuente';  /* Puedes darle el nombre que desees */
+  src: url('./assets/fonts/Chalk-hand-lettering-shaded.otf') format('woff2');
+  /* Ajusta la ruta según la ubicación de tu archivo .otf */
+}
+
+@font-face {
+  font-family: 'letraaa';
+  src: url('./assets/fonts/KGBlankSpaceSketch.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'letraaa2';
+  src: url('./assets/fonts/KGBlankSpaceSolid.ttf') format('woff2');
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,5 +30,23 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ */
+
+body {
+  margin: 0;
+  font-family: 'letraaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombras */
+}
+
+code {
+  font-family: 'letraaa', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

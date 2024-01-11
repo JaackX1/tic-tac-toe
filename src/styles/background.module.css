@@ -1,0 +1,53 @@
+
+.innerShadow {
+  box-shadow: 0px 0px 191px -32px rgba(0,0,0,1) inset;
+  -webkit-box-shadow: 0px 0px 191px -32px rgba(0,0,0,1) inset;
+  -moz-box-shadow: 0px 0px 191px -32px rgba(0,0,0,1) inset;
+}
+
+.Hola{
+  box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.48) inset;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.48) inset;
+  -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.48) inset;
+}
+
+.Hola2{
+  box-shadow: 0px 0px 22px 9px rgba(0,0,0,0.36);
+  -webkit-box-shadow: 0px 0px 22px 9px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 0px 22px 9px rgba(0,0,0,0.36);
+}
+
+
+.tizaBorde {
+  border: 3px solid rgba(255, 255, 255, 0.7); /* Borde blanco semitransparente */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Sombra blanca semitransparente */
+  background-color: #000; /* Fondo oscuro para resaltar el borde blanco */
+  padding: 20px; /* Ajusta según sea necesario */
+  color: #fff; /* Texto blanco en el interior del div */
+  font-family: 'MiFuente', sans-serif;
+  /* Otras propiedades de estilo según sea necesario */
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0;
+  width: 300px; /* Ajusta el tamaño del contenedor según sea necesario */
+  height: 300px;
+}
+
+.gridItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridMarcador {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0;
+  min-width: 180px; /* Ajusta el tamaño del contenedor según sea necesario */
+  min-height: 180px;
+}
